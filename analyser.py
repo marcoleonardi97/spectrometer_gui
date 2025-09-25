@@ -104,7 +104,7 @@ def main():
             roi_image = cropped.copy()
             roi_image = cv2.cvtColor(roi_image, cv2.COLOR_BGR2RGB)
             roi_image = Image.fromarray(roi_image)
-            roi_image = roi_image.resize((800,300),Image.ANTIALIAS)
+            roi_image = roi_image.resize((800,300),Image.Resampling.LANCZOS)
             roi_image = ImageTk.PhotoImage(roi_image)
             roi_canvas.create_image(0,0,anchor="center", image=roi_image)
             r_dist = []
