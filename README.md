@@ -116,14 +116,6 @@ Designed for educational demonstration of spectroscopy principles using accessib
 - [ ] Include spectral line detection
 - [ ] Improve GUI design and user experience
 
-## Contributing
-
-Contributions are welcome! Please feel free to submit pull requests or open issues for bugs and feature requests.
-
-## License
-
-[Add your chosen license here]
-
 ## Acknowledgments
 
 - Università di Bologna - Attività Professionalizzante program
